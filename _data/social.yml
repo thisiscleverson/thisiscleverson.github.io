@@ -1,20 +1,14 @@
-- link: https://github.com/hkotsubo
+- link: https://github.com/thisiscleverson
   icon_type: svg
   icon: /assets/minima-social-icons.svg#github
   margin-left: 0
   site: github
 
-- link: https://pt.stackoverflow.com/users/112052/hkotsubo
-  icon_type: png
-  icon: /assets/img/so-icon.png
+- link: https://bsky.app/profile/thisiscleverson.bsky.social
+  icon_type: svg
+  icon: /assets/img/bluesky.svg
   width: 26px
   margin-left: -5px
-  site: stackoverflow
+  site: bluesky
 
-- link: https://www.tabnews.com.br/kht
-  icon_type: png
-  icon: /assets/img/tabnews-icon.png
-  width: 24px
-  margin-left: -5px
-  site: tabnews
-  username: kht
+

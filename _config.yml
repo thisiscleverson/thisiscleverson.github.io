@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: hkotsubo_programming_blog
-author: Hugo Kotsubo
-email: hkotsubo@gmail.com
+title: this_is_cleverson
+author: Cleverson Silva
+email: cleverson.silva.contact@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Meus pitacos sobre programação.
+  Computação, filosofia e vida.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hkotsubo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thisiscleverson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: /blog/:year-:month-:day/:title
 excerpt_separator: <!--more-->
@@ -50,6 +50,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

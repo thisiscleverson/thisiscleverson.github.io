@@ -17,7 +17,7 @@ title: this_is_cleverson
 author: Cleverson Silva
 email: cleverson.silva.contact@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Computação, filosofia e vida.
+  Aqui eu falo sobre computação, sobre a vida. Um compilado de quem eu sou e do que eu gosto de fazer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thisiscleverson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

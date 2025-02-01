@@ -4,11 +4,20 @@
   margin-left: 0
   site: github
 
+
 - link: https://bsky.app/profile/thisiscleverson.bsky.social
-  icon_type: svg
-  icon: /assets/img/bluesky.svg
+  icon_type: png
+  icon: /assets/img/bluesky.png
   width: 26px
   margin-left: -5px
   site: bluesky
+
+
+- link: mailto:{{ site.email }}
+  icon_type: png
+  icon: /assets/img/email.png
+  width: 26px
+  margin-left: -5px
+  site: email
 
 

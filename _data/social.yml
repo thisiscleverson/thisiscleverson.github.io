@@ -3,6 +3,7 @@
   icon: /assets/minima-social-icons.svg#github
   margin-left: 0
   site: github
+  username: 'thisiscleverson'
 
 
 - link: https://bsky.app/profile/thisiscleverson.bsky.social
@@ -11,13 +12,16 @@
   width: 26px
   margin-left: -5px
   site: bluesky
+  username: 'thisiscleverson'
 
 
-- link: mailto:{{ site.email }}
+
+- link: https://bolha.us/@cleverson
   icon_type: png
-  icon: /assets/img/email.png
+  icon: /assets/img/mastodon.svg
   width: 26px
   margin-left: -5px
-  site: email
+  site: mastodon
+  username: '@cleverson'
 
 

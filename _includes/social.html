@@ -1,12 +1,14 @@
 <ul class="social-media-list">
-  {% for social in site.data.social %}
-   <li><a href="{{ social.link }}" title="{{ social.site }}" target="_blank" style="margin-left: {{ social.margin-left }}"
-        data-sitename="{{ social.site }}/{{ social.username | default: "thisiscleverson" }}">
-  	{% if social.icon_type == "svg" %}
-  	<svg class="svg-icon"><use xlink:href="{{ social.icon | relative_url }}"></use></svg>
-  	{% else %}
-  	<img src="{{ social.icon }}" {% if social.width %} style="width: {{ social.width }} " {% endif %}>
-  	{% endif %}
-   </a></li>
-  {% endfor %}
+    {% for social in site.data.social %}
+    <li>
+        <a href="{{ social.link }}" title="{{ social.site }}" target="_blank" style="margin-left: {{ social.margin-left }}">
+            {% if social.icon_type == "svg" %}
+            <svg class="svg-icon"><use xlink:href="{{ social.icon | relative_url }}"></use></svg>
+            {% else %}
+            <img src="{{ social.icon }}" {% if social.width %} style="width: {{ social.width }} " {% endif %}>
+            {% endif %}
+            <span>{{ social.username}}</span>
+        </a>
+    </li>
+    {% endfor %}
 </ul>

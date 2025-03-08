@@ -7,15 +7,15 @@
 	transform: scale(1.4);
 }
 
-.social-media-list a:hover:after{
+/*.social-media-list a:hover:after{
 	content: attr(data-sitename);
-}
+}*/
 
 .footer-col-1 {
-	width: 25%;
+	width: 35%;
 }
 .footer-col-2 {
-	width: 35%;
+	width: 25%;
 }
 .footer-col-3 {
 	width: 30%;
@@ -52,3 +52,9 @@ blockquote {
 .rss-link {
 	margin-left: 10px;
 }
+
+.inline-emoji {
+	height: 1.5em;
+	position: relative;
+	top: 0.3em;
+  }

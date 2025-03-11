@@ -2,6 +2,7 @@
 layout: default
 title: Tags
 permalink: /tags/
+show: true
 ---
 
 <style type="text/css" media="screen">

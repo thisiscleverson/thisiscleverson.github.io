@@ -13,28 +13,33 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: this_is_cleverson
 author: Cleverson Silva
 email: cleverson.silva.contact@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Uso esse lugar para falar sobre computação, dicas de programação e descobertas incríveis sobre esse vasto mundo da tecnologia da informação.
+  Uso esse lugar para falar sobre computação e descobertas incríveis sobre esse vasto mundo de tech.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thisiscleverson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-icon: /assets/img/linux.ico
+icon: /assets/img/happy-computer.ico
 
 permalink: /blog/:year-:month-:day/:title
 excerpt_separator: <!--more-->
 timezone: America/Sao_Paulo
 
+
 paginate: 10
 paginate_path: "/blog/page:num/"
+
 
 sass:
   style: compact
 
+
 collections:
   category:
     output: true
+
 
 defaults:
   -
@@ -44,22 +49,9 @@ defaults:
     values:
       layout: "category"
 
+
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
+  - jekyll-katex
   
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

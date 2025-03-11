@@ -1,0 +1,49 @@
+---
+layout: default
+comments: true
+---
+<!doctype html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        {{ seo }}
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+        <script type="text/javascript" src="/js/post.js"></script>
+    </head>
+    
+    <body>
+        <h1 class="post-title p-name" itemprop="name headline">
+            {{ page.title }}
+        </h1>
+
+        {% if page.show_desc %}
+        <h4 class="post-desc">{{ page.description }}</h4>
+        {% endif %}
+
+        <hr class="post-division">
+        <p class="post-meta">
+            <time class="dt-published" datetime="{{ page.date }} " itemprop="datePublished">
+                {% include date_iso8601.html date=page.date %}
+            </time>
+            <span>
+                ({% include date_ptbr.html date=page.date %})
+            </span>
+            {% assign sortedCategories = page.categories | sort %}
+            {% for category in sortedCategories %}
+                <span class="tag">
+                    <a href="/tag/{{ category }}" target="_blank">#{{ category }}</a>
+                </span>
+            {% endfor %}
+        </p>
+        {{ content }}
+
+        {% if page.comments %}
+        {% include disqus.html %}
+        {% endif %}
+
+        {% if site.url contains 'hkotsubo.github.io' %}
+        {% include analytics.html %}
+        {% endif %}
+    </body>
+</html>

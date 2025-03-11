@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
+
 <ul class="post-list">
   {% for post in paginator.posts %}
 	<li>
@@ -22,22 +22,22 @@ layout: default
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      &lt;
-    </a>
-  {% else %}
-    <span class="previous">&lt;</span>
-  {% endif %}
+     {% if paginator.previous_page %}
+     <a href="{{ paginator.previous_page_path }}" class="previous">
+          &lt;
+     </a>
+     {% else %}
+     <span class="previous">&lt;</span>
+     {% endif %}
 
-  <span class="page_number ">
-    Página: {{ paginator.page }} de {{ paginator.total_pages }}
-  </span>
+     <span class="page_number ">
+     Página: {{ paginator.page }} de {{ paginator.total_pages }}
+     </span>
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">&gt;</a>
-  {% else %}
-    <span class="next ">&gt;</span>
-  {% endif %}
+     {% if paginator.next_page %}
+     <a href="{{ paginator.next_page_path }}" class="next">&gt;</a>
+     {% else %}
+     <span class="next ">&gt;</span>
+     {% endif %}
 </div>
 {% endif %}

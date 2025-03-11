@@ -1,7 +1,8 @@
 - link: https://github.com/thisiscleverson
-  icon_type: svg
-  icon: /assets/minima-social-icons.svg#github
-  margin-left: 0
+  icon_type: png
+  icon: /assets/img/github.png
+  width: 26px
+  margin-left: -5px
   site: github
   username: 'thisiscleverson'
 

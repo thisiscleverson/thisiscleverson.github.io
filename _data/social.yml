@@ -1,28 +1,27 @@
 - link: https://github.com/thisiscleverson
   icon_type: png
   icon: /assets/img/github.png
-  width: 26px
+  width: 20px
   margin-left: -5px
   site: github
   username: 'thisiscleverson'
 
 
+
 - link: https://bsky.app/profile/thisiscleverson.bsky.social
   icon_type: png
   icon: /assets/img/bluesky.png
-  width: 26px
+  width: 20px
   margin-left: -5px
   site: bluesky
   username: 'thisiscleverson'
 
 
 
-- link: https://bolha.us/@cleverson
+- link: https://www.linkedin.com/in/cleverson-silva/
   icon_type: png
-  icon: /assets/img/mastodon.svg
-  width: 26px
+  icon: /assets/img/In-Blue.png
+  width: 20px
   margin-left: -5px
-  site: mastodon
-  username: '@cleverson'
-
-
+  site: linkedin
+  username: 'cleverson-silva'

@@ -7,24 +7,23 @@ show: true
 
 ## Sobre
 
-<img src="/assets/img/eu.jpg" style="width: 150px; margin: 8px;" align="left">
+<img src="/assets/img/eu.jpg" style="width: 150px; margin-right: 35px;" align="left">
 
-Olá, me chamo *Cleverson* e eu amo escrever código. 
+**Hi there!** Eu me chamo *Cleverson*, tenho 20 anos e sou uma pessoa muito apaixonado por códigos.
 
-Eu sou uma pessoa muito curiosa e sempre estou em busca de mais conhecimento 
-para alimentar um "mostro" dentro de mim chamado curiosidade.
+Me considero uma pessoa muito empolgado e curioso, estou sempre desenvolvendo minhas ideias mais aleatórias, e às vezes elas dão certo!
+Gosto muito de programar em Python, mas também me aventuro em outras linguagens com: JavaScript e
+C++ (com foco em embarcados). Minha paixão por tecnologia vai muito além de simplesmente fazer códigos; 
+também gosto de mexer com embarcados (Arduino, ESP32).
 
-Gosto muito de programar em Python, mas também flerto com outras linguagens como JavaScript e
-C++ (com foco em embarcados). Minha paixão por tecnologia vai muito além do desenvolvimento de software; 
-também me interesso por hardwares (Arduino, ESP32) nos meus momentos livres.
+Minha intenção com esse espaço é compartilhar o que venho aprendendo com 
+esse mundo incrível da tecnologia e espero que você possa
+compartilhar esse mesmo entusiasmo que eu sinto. 🙃
 
-Minha intenção com esse espaço é compartilhar do que venho aprendendo com esse mundo incrível
-da tecnologia e espero que você possa compartilhar esse mesmo entusiasmo. 🙃
-
-## Siga-me
+## Redes sociais
 
 * **Bluesky:** [@thisiscleverson.bsky.social](https://bsky.app/profile/thisiscleverson.bsky.social)
-
+* **Linkedin:** [cleverson-silva](https://www.linkedin.com/in/cleverson-silva/)
 
 ## Meus códigos 
 

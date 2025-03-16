@@ -19,7 +19,7 @@ author: Cleverson Silva
 email: cleverson.silva.contact@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Apenas um latino-americano tentando falar sobre este vasto mundo da tecnologia e a complexa vida...
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://thisiscleverson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/img/happy-computer.ico
 

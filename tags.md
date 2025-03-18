@@ -2,7 +2,7 @@
 layout: default
 title: Tags
 permalink: /tags/
-show: false
+show: true
 ---
 
 <style type="text/css" media="screen">
@@ -68,11 +68,14 @@ function changeOrder(event) {
 
 <p>Ordenar por: <span id="order-criteria"><span class="current-order">nome</span> <em>|</em> <span>quantidade</span></span></p>
 
-{% assign sorted_cats = site.categories | sort %}
+{% assign sorted_cats = site.tags | sort %}
 <div id="dados">
   <ul>
     {% for cat in sorted_cats %}
-      <li data-count="{{ cat[1] | size }}" data-name="{{ cat[0] }}"><a href="{{ site.url }}/tag/{{ cat[0] }}">{{ cat[0] }}</a> ({{ cat[1] | size }} posts)</li>
+      <li data-count="{{ cat[1] | size }}" data-name="{{ cat[0] }}">
+		  <a href="{{ site.url }}/tag/{{ cat[0] }}">{{ cat[0] }}</a>
+		  ({{ cat[1] | size }} posts)
+	  </li>
     {% endfor %}
   </ul>
 </div>

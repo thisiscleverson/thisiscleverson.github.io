@@ -14,16 +14,17 @@ comments: true
   
   <hr class="post-division">
   <p class="post-meta">
-    <time class="dt-published" datetime="{{ page.date }} " itemprop="datePublished">
-      {% include date_iso8601.html date=page.date %}
-    </time>
     <span>
-      ({% include date_ptbr.html date=page.date %})
+      Escrito por <strong>{{ site.author}}</strong> em
     </span>
-    {% assign sortedCategories = page.categories | sort %}
-    {% for category in sortedCategories %}
-    <span class="tag">
-      <a href="/tag/{{ category }}" target="_blank">#{{ category }}</a>
+    <span>
+      {% include date_ptbr.html date=page.date %}
+    </span>
+    
+    {% assign sortedTags = page.tags | sort %}
+    {% for tag in sortedTags %}
+    <span class="tag" style="margin-left: 8px;">
+      <a href="/tag/{{ tag }}" target="_blank">#{{ tag }}</a>
     </span>
     {% endfor %}
   </p>

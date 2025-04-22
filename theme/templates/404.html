@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style type="text/css" media="screen">
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 150px;
+  }
+  
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  .box{
+      display: flex;
+      gap: 30px;
+      margin-bottom: 40px;
+  }
+
+  .line{
+      height: 100px;
+      border-width: 0px 0px 0px 1px;
+      border-style: solid;
+      border-color: #858585;
+  }
+  
+  .box img {
+      height: 100px;
+  }
+  
+</style>
+
+<div class="container">
+  <div class='box'>
+    <img src="{{ '/assets/img/sad-computer.png'  | prepend: site.url }}"/>
+    <div class="line"></div>
+    <h1>404</h1>
+  </div>
+
+  <p><strong>Página não encontrada :(</strong></p>
+  <a  href="{{ site.baseurl }}/">Retornar à tela inicial</a>
+</div>
+{% endblock %}

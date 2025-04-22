@@ -1,0 +1,46 @@
+<footer class="site-footer">
+  <data class="u-url" href="{{ "/" }}"></data>
+  
+    <h2>{{ TITLE }}</h2>
+    
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if AUTHOR -%}
+            {{ AUTHOR }}
+            {%- else -%}
+            {{ TITLE }}
+            {%- endif -%}
+          </li>
+          {%- if EMAIL -%}
+          <li>
+            <a class="u-email" href="mailto:{{ EMAIL }}">{{ EMAIL }}</a>
+          </li>
+          {%- endif -%}
+		  {% if FEED_ALL_ATOM %}
+		  <li>
+			<a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed">
+			  <img src="theme/images/rss-icon.png" style="width: 20px; margin-top: 15px;" align="left">
+			</a>
+			{% endif %}
+			{% if FEED_ALL_RSS %}
+			<a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed">
+			  <img src="theme/images/rss-icon.png" style="width: 20px; margin-top: 15px;" align="left">
+			</a>
+		  </li>
+		  {% endif %}
+        </ul>
+      </div>
+      
+      <div class="footer-col footer-col-2">
+        {%- include 'social.html' -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- DESCRIPTION | escape -}}</p>
+      </div>
+
+    </div>
+
+</footer>

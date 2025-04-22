@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <ul id="article-container">
+    {% for article in articles %}
+      <li class="list-articles">
+        <h2 class="title"><a href="{{ url }}/{{ article.url }}">{{ article.title }}</a></h2>
+
+		<div class="metadata-container">
+		  <p>{{article.date.strftime('%d/%m/%Y')}}</p>
+		  <div class="tags-container">
+			{% for tag in article.tags %}
+            <a href="{{ url }}/tag/{{ tag.slug }}.html">#{{ tag.name }}</a>
+			{% endfor %}
+		  </div>
+        </div>
+
+        <p class="summary">
+		  {{ article.summary or article.content[:150] ~ "..." }}
+		</p>
+		
+	  </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

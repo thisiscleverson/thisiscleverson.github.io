@@ -1,0 +1,51 @@
+/* Imports */
+@import url("reset.css");
+@import url("header.css");
+@import url("page-content.css");
+@import url("list-article.css");
+@import url("footer.css");
+@import url("highlighting.css");
+
+
+html[data-theme="dark"] {
+	--background-color: #1d1e20;
+	--text-color: white;
+	--title-color: white;
+	--link-color: white;
+	--code-background: #2e2e33;
+	--code-l-color: #cdcdcd;
+}
+
+
+/* Global css */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  
+}
+
+
+.wrapper:after, .footer-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 700px) {
+  .wrapper {
+    max-width: -webkit-calc(100% - (30px));
+    max-width: calc(100% - (30px));
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+

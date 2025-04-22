@@ -1,0 +1,40 @@
+#article-container{
+	margin-left: 0;
+
+	h2, p{
+		margin-bottom: 0;
+	}
+
+	.metadata-container{
+		margin-bottom: 0;
+	}
+}
+
+.list-articles{
+	margin-bottom: 40px;
+	list-style: none;
+}
+
+
+.title{
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+
+.metadata-container{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.tags-container{
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+
+.summary{
+	margin-bottom: 10px;
+}

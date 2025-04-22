@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  {% include 'head.html' %}
+  
+  <body>
+    <div class="wrapper">
+	{% include 'header.html' %}
+	
+    <main class="page-content">
+		{% block content %}{% endblock %}
+    </main>
+
+	{% include 'footer.html' %}
+    </div>
+  </body>
+  
+</html>

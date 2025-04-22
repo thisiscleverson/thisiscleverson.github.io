@@ -1,0 +1,14 @@
+<ul class="social-media-list">
+    {% for social in SOCIAL_LINKS %}
+    <li>
+        <a href="{{ social.link }}" title="{{ social.site }}" target="_blank" style="margin-left: {{ social.margin_left }}">
+            {% if social.icon_type == "svg" %}
+            <svg class="svg-icon"><use xlink:href="{{ BASEURL }}/theme/{{ social.icon }}"></use></svg>
+            {% else %}
+            <img src="{{ BASEURL }}/theme/{{ social.icon }}" {% if social.width %} style="width: {{ social.width }} " {% endif %}>
+            {% endif %}
+            <span>{{ social.username}}</span>
+        </a>
+    </li>
+    {% endfor %}
+</ul>

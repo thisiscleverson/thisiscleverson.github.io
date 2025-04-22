@@ -1,0 +1,18 @@
+
+<meta name="description" content="{% if article %}{{ article.summary | replace('<p>','') | replace('</p>','') }}{% else %}{{ DESCRIPTION }}{% endif %}">
+
+<meta property="og:title" content="{% if article %}{{ article.title }}{% else %}{{ TITLE }}{% endif %}" >
+<meta property="og:description" content="{% if article %}{{ article.summary | replace('<p>','') | replace('</p>','') }}{% else %}{{ DESCRIPTION }}{% endif %}">
+
+{% if article %}
+   <meta property="og:type" content="article" >
+    {% for tag in article.tags %}
+     <meta property="og:article:tag" content="{{tag}}" >
+     {% endfor %}
+     {% else %}
+     <meta property="og:type" content="website">
+{% endif %}
+
+<meta property="og:url" content="{% if article %}{{SITEURL}}/{{ article.url }}{% else %}{{ SITEURL }}{% endif %}" >
+<meta property="og:image" content="{{ SITEURL }}/theme/images/banner.jpg" >
+

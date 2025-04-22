@@ -1,0 +1,55 @@
+---
+title: Olá Mundo!
+date: 2025-03-18 00:04:00 -0300
+summary: "Já faz algum tempo que venho pensando em voltar a escrever em um blog. Ter um espaço que eu possa chamar de meu ..."
+comments: false
+tags: vida
+---
+
+Já faz algum tempo que venho pensando em voltar a escrever em um blog. Ter um espaço que eu possa chamar de meu e que me permita ter a possibilidade de compartilhar sobre diversos assuntos que venho estudando com mais gente. E também para mim mesmo! 
+
+Um espaço que seria praticamente um "caderno de anotações" com todas as memórias de coisas que cultivei para que em um futuro possa me lembrar daquele assunto que escrevi. 
+
+Mas por que diabos investir em um blog se quase ninguém na atualidade acompanha mais isso? Não seria melhor investir em redes sociais como YouTube, LinkedIn ou qualquer outra mídia social que tem um engajamento muito maior para compartilhar assuntos? 
+
+É ai que a gente entra no dilema das redes sociais.
+
+## O dilema das redes sociais
+
+Bom... Acredito que todos saibam que as plataformas de mídias sociais de grande corporação, como a Meta e TikTok, usam os dados coletados dos usuários como forma de ganhar dinheiro. 
+
+Por trás daquela rede social linda e de "graça" que você usa todos os dias para compartilhar memes com seus amigos, existe um poderoso algoritmo que fica monitorando todos os seus hábitos, gostos e seu histórico de consumo para te conseguir manter o mais dependente possível dessas ferramentas.
+
+Por isso, investir nesses espaços (que, sim, têm um engajamento muito maior que um simples blog como esses), faz com que ajudemos o Mark Zuckerberg a ficar ainda mais rico do que é. **E eu não quero fazer parte disso!**
+
+> "Se você não estiver pagando pelo produto - você é o produto"
+
+## E quais os meus objetivos com esse blog?
+
+Meu objetivo principal com esse blog é falar sobre tecnologias e dicas de programação que tenha descoberto e achei legal compartilhar.  Alguma vez ou outra vou fugir do objetivo principal e falar sobre assuntos nada a ver com tecnologia. Porém, 90% dos assuntos abordados aqui vão ser sobre tech. 
+
+Outro objetivo que espero alcançar aqui é aprender a escrever melhor. Sim, isso mesmo, escrever melhor. Quero aprender a me expressar melhor, quero saber expressar melhor os meus pontos de vista e, para que eu possa alcançar isso, preciso aprender a escrever melhor.
+
+E o último objeto que pretendo adquirir é me aprofundar mais em tópicos mais avançados para ter mais embasamento e mais propriedade para falar.  Acredito que isso vá me forçar a ter um foco maior do que estou tendo no momento.
+
+## Regras
+
+Tem um regra que quero adotar aqui e essa regra vai ser muito importante para o desenvolvimento desse espaço, pois ela vai ser a única e a mais importante regra desse blog. 
+
+**A regra é o seguinte:** 
+
+- **Vai ser totalmente proibido o uso de IA generativa nesse local.**
+
+Sim! Você leu bem, nesse blog vai ser totalmente proibido o uso de IA generativa como o ChatGPT ou qualquer outra IA semelhante. Não quero usar essa ferramenta nos meus textos e não quero sua influência aqui!  
+
+Mas por que disso? Por que não quero usar IA?
+
+Isso me levaria para uma discussão profunda e bem crítica, com uma lista enorme de argumentos do porquê eu não quero usar IA como o ChatGPT ou qualquer outra. Mas a resposta mais direta que posso dar é a dependência que elas geram! Não quero ficar refém de IAs generativas para produzir aqui. E usar IA me atrapalharia a alcançar alguns dos meus objetivos aqui. 
+
+Mas isso não significa que eu não possa fazer publicações falando de IA. Sim, vai ter um post ou outro falando sobre inteligência artificial. Mas serão posts criticando ou demonstrando em algum projeto que usa essas ferramentas. 
+
+Meu ponto principal é que elas não serão usadas na produção dos conteúdos e nem serão usadas nos meus estudos. Tudo aqui será orgânico e natural.
+
+## Conclusão
+
+Escrever não é fácil, mas eu estou com a perspectiva muito grande com essa ideia, mesmo que isso possa significar que ninguém vai ler meus posts.  Espero que esse espaço que estou tentando construir me permita evoluir, tanto humana quanto cognitivamente. E espero muito que você, que está lendo isso agora, possa acompanhar essa jornada e entusiamos junto comigo. 

@@ -1,0 +1,21 @@
+[project]
+name = "blog"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "thisiscleverson",email = "cleverson.silva.contact@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "markdown (>=3.8,<4.0)",
+    "pelican-yaml-metadata (>=2.1.2,<3.0.0)",
+    "minchin-pelican-plugins-wikilinks (>=1.0.0,<2.0.0)",
+    "pelican[markdown] (>=4.11.0,<5.0.0)",
+    "pelican-syntax-highlighting (>=0.4.2,<0.5.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,148 @@
+:root {
+  --text-color: #111;
+  --background-color: #fdf6e3;
+  --title-color: #424242;
+  --link-color: #268bd2;
+  --p-color: #999083;
+  --code-background: #eee8d5;
+  --code-l-color: #586e75;
+  
+  --blue:  #268bd2;
+  --cyan:  #2aa198;
+  --gray:  #858585;
+  --black: #000000;
+}
+
+/**********************[reset css]******************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	
+	line-height: 1;
+	font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	background-color: var(--background-color);
+}
+
+
+blockquote, q {quotes: none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* remember to define focus styles! */ 
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+	color: var(--text-color);
+}
+
+
+/***** Links *****/
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+  
+a:visited {
+	color: var(--blue);
+}
+
+a:hover {
+	color: var(--blue);
+	text-decoration: underline;
+}
+
+/***** Formatação de Código *****/
+pre, code {
+	font-size: 15px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+}
+
+code {
+	padding: 1px 5px;
+}
+
+pre {
+	padding: 8px 12px;
+	overflow: auto;
+}
+
+pre > code {
+	border: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+/***** Tabelas *****/
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: #3f3f3f;
+  border-collapse: collapse;
+  border: 1px solid #e8e8e8;
+}
+
+table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+table th, table td {
+  padding: 10px 15px;
+}
+
+table th {
+  background-color: #f0f0f0;
+  border: 1px solid #dedede;
+  border-bottom-color: #c9c9c9;
+}
+
+table td {
+  border: 1px solid #e8e8e8;
+}

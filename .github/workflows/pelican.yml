@@ -11,5 +11,6 @@ jobs:
       pages: write
       id-token: write
     with:
+      requirements: "-r requirements.txt"
       settings: "publishconf.py"
       python: "3.13"

@@ -1,18 +1,15 @@
-name: Deploy to github pages
-
+name: Deploy
 on:
   push:
-    branches:
-      - main
-
+    branches: ["main"]
+  workflow_dispatch:
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        PELICAN_CONFIG_FILE: publishconf.py
+  Deploy:
+    uses: seanh/ghp-pelican/.github/workflows/pelican.yml@main
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    with:
+      settings: "publishconf.py"
+      python: "3.13"

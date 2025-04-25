@@ -3,14 +3,13 @@ title: Criando um dotfiles
 date: 2025-04-01 21:50:00 -0300
 summary: "Configurar máquinas novas às vezes é um trabalho chato e demorado. E se houvesse um jeito de fazer tudo isso de forma automatizada? Nesse post, vamos falar sobre como eu criei um Dotfiles para fazer esse trabalho chato e demorado para mim."
 comments: false
-tags: ["automação", "dotfile"]
+tags: ["automação", "dotfiles", "script"]
 ---
 
 
 Recentemente, fiz uma troca de notebook, depois de 6 anos. E uma coisa que é muito chato quando se faz a troca é ter que configurar todas as minúcias do absoluto zero. Ter que passar dias ou até semanas procurando o programa certo, instalado os plugins e extensões, e configurar todos os detalhes daquele software acaba sendo algo muito estressante. 🤯
 
-Uma das características que está na essência de nós programadores é querer automatizar tarefas repetitivas, nem que seja só pela diversão de saber se é possível. 
-Por isso, decidir criar um script que configurasse todo meu sistema do zero, que deixasse do jeito que gosto e estou acostumando.
+Uma das características que está na essência de nós programadores é querer automatizar tarefas repetitivas, nem que seja só pela diversão de saber se é possível. Por isso, decidir criar um script com toda as minhas configurações do sistema que uso no meu dia dia
 
 ## Desafios
 
@@ -306,7 +305,7 @@ A opção `--ask-become-pass-pass` serve para pedir a senha de `sudo` para que o
 
 Pronto! Agora é so dixar o Ansible fazer todo o trabalho pesado e ser feliz. :)
 
-![imagem do ansible-playbook funcionando](/assets/posts-imgs/criando-um-dotfiles/ansible-playbook-working.jpg)
+![imagem do ansible-playbook funcionando](/media/criando-um-dotfiles/ansible-playbook-working.jpg)
 
 
 ## Gerenciando os dotfiles com o Dotdrop
@@ -391,7 +390,7 @@ Pronto, com o `config.yml` tudo configurado, podemos usar o dotdrop para que ele
 dotdrop install --profiles=cleverson
 ```
 
-![imagem da resposta do dotdrop](/assets/posts-imgs/criando-um-dotfiles/dotdrop-working.jpg)
+![imagem da resposta do dotdrop](/media/criando-um-dotfiles/dotdrop-working.jpg)
 
 Agora sim todos as minhas ferramentas estão configuradas. E para finalizar, só preciso instalar as extensões que eu uso no gnome.
 
@@ -407,7 +406,7 @@ gnome-extensions list --enabled
 
 esse comando vai mostrar uma lista de extensões que estão ativas no sistema.
 
-![](/assets/posts-imgs/criando-um-dotfiles/gnome-extensions-list-command.jpg)
+![](/media/criando-um-dotfiles/gnome-extensions-list-command.jpg)
 
 Com isso, basta salvar essas extensões em um arquivo txt. E para fazer isso, podemos usar esse comando:
 

@@ -8,7 +8,7 @@ save_as: about.html
 
 ## Sobre
 
-<img src="/media/eu.jpg" style="width: 150px; margin-right: 35px;" align="left">
+<img src="/media/about/eu.jpg" style="width: 150px; margin-right: 35px;" align="left">
 
 **Hi there!** Eu me chamo *Cleverson*, tenho 20 anos e sou uma pessoa muito apaixonado por códigos.
 

@@ -29,6 +29,14 @@
   <hr class="article-division">
   
   {{ article.content }}
-  
+
+  {% if article.comments %}
+  <div id="comments"></div>
+  <script>
+	addEventListener('DOMContentLoaded', (event) => {
+		loadComments('{{ article.mastodonpost}}', document.getElementById('comments'))
+	});
+  </script>
+  {% endif %}
 </article>
 {% endblock %}

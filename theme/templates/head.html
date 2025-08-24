@@ -3,10 +3,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ TITLE }}</title>
+  <title>{% block title %}{{ TITLE }}{%endblock%}</title>
   <link rel="stylesheet" href="{{ url }}/theme/css/main.css" type="text/css"/>
   <link rel="icon" type="image/x-icon" href="{{ url }}/theme/images/happy-computer.ico">
-
+  <link rel="stylesheet" href="https://mastocomments.disquete.online/comments.css">
+  
   {% include "seo.html" %}
   
   {% if FEED_ALL_ATOM %}
@@ -16,4 +17,5 @@
   <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
   {% endif %}
   {% endblock head %}
+  <script type="text/javascript" src="https://mastocomments.disquete.online/comments.js"></script>
 </head>

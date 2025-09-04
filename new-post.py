@@ -44,7 +44,7 @@ def create_file(title, summary, comments, tags):
     filename = f'{DIRECTORY}/{date}-{title_formated}.md'
     
     with open(filename, 'a') as file:
-        template = f'---\ntitle: {title}\ndate: {datetime.now().strftime("%Y-%m-%d %H:%M:%S% -0300")}\nsummary: "{summary}"\ncomments: {comments}\ntags: {tags}\nmastodonpost: ""\n---\n'        
+        template = f'---\ntitle: {title}\ndate: {datetime.now().strftime("%Y-%m-%d %H:%M:%S -0300")}\nsummary: "{summary}"\ncomments: {comments}\ntags: {tags}\nmastodonpost: ""\n---\n'        
         file.write(template)
 
     return filename

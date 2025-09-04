@@ -30,6 +30,10 @@
   
   {{ article.content }}
 
+  <div style="display: flex;justify-content: center;margin-top: 10px;">
+	<img src="{{ BASEURL }}/theme/static/images/written-by-human.png">
+  </div>
+
   {% if article.comments %}
   <div id="comments"></div>
   <script>

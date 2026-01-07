@@ -3,7 +3,7 @@ TITLE = 'this_is_cleverson'
 DESCRIPTION = "Apenas um latino-americano tentando falar sobre este vasto mundo da tecnologia e a complexa vida..."
 BASEURL = ""
 SITEURL = "https://thisiscleverson.github.io"
-EMAIL = "cleverson.silva.contact@gmail.com"
+EMAIL = "contato.cleverson@fastmail.us"
 
 
 PATH = "content"
@@ -32,12 +32,12 @@ DISPLAY_PAGES_ON_MENU = False
 # Social widget
 SOCIAL_LINKS = [
     {
-        'link': 'https://github.com/thisiscleverson',
+        'link': 'https://codeberg.org/thisiscleverson',
         'icon_type': 'png',
-        'icon': 'images/github.png',
+        'icon': 'images/codeberg-logo.png',
         'width': '20px',
         'margin_left': '-5px',
-        'site': 'github',
+        'site': 'codeberg',
         'username': 'thisiscleverson',
     },
     {

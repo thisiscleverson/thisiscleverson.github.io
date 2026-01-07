@@ -1,16 +1,17 @@
-name: Deploy
+name: Pelican site CI
+
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
+    branches:
+      - main
+
 jobs:
-  Deploy:
-    uses: seanh/ghp-pelican/.github/workflows/pelican.yml@main
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    with:
-      requirements: "-r requirements.txt"
-      settings: "publishconf.py"
-      python: "3.13"
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
+      env:
+        GITHUB_TOKEN: ${{secrets.GH_TOKEN}}

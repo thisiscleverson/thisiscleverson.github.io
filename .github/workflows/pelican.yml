@@ -12,5 +12,5 @@ jobs:
       id-token: write
     with:
       settings: "publishconf.py"
-      requirements: "-e ."
+      requirements: "-r requirements.txt"
       python: "3.13"

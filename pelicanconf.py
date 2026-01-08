@@ -2,6 +2,7 @@ AUTHOR = 'Cleverson Silva'
 TITLE = 'this_is_cleverson'
 DESCRIPTION = "Apenas um latino-americano tentando falar sobre este vasto mundo da tecnologia e a complexa vida..."
 BASEURL = ""
+SITENAME = "this_is_cleverson"
 SITEURL = "https://thisiscleverson.github.io"
 EMAIL = "contato.cleverson@fastmail.us"
 
@@ -21,8 +22,8 @@ PAGE_SAVE_AS = '{slug}.html'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+AUTHOR_FEED_ATOM = "this_is_cleverson"
+AUTHOR_FEED_RSS = "this_is_cleverson"
 DISPLAY_PAGES_ON_MENU = False
 
 

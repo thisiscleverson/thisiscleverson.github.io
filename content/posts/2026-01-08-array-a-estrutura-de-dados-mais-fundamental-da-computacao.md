@@ -4,7 +4,7 @@ date: 2026-01-08 17:30:50 -0300
 summary: "Arrays são as estruturas de dados mais fundamentais da computação. Porém, muitos desenvolvedores não entendem o seu funcionamento. Nesse post, falo um pouco sobre o funcionamento de arrays estáticos e quais são suas vantagens e desvantagens."
 comments: true
 tags: ["estrutura de dados"]
-mastodonpost: ""
+mastodonpost: "https://bolha.us/@cleverson/115861432730503283"
 ---
 
 

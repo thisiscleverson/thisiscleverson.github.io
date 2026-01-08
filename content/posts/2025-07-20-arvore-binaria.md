@@ -3,7 +3,7 @@ title: Uma introdução à árvore binária
 date: 2025-07-31 19:00:00 -0300
 summary: "Árvores binárias são estruturas de dados importantes na ciência da computação e podem ser usadas para resolver muitos problemas na programação. Nesse post, vamos falar um pouco sobre essa estrutura incrível..."
 comments: true
-tags: ['estutura de dados', 'algoritmo']
+tags: ['estrutura de dados']
 mastodonpost: 'https://bolha.us/@cleverson/115081618521535813'
 ---
 

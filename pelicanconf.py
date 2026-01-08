@@ -22,8 +22,8 @@ PAGE_SAVE_AS = '{slug}.html'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = "this_is_cleverson"
-AUTHOR_FEED_RSS = "this_is_cleverson"
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = False
 
 

@@ -92,7 +92,19 @@ Mas, em contrapartida, quando estamos desenvolvendo nossas aplicações e não s
 
 ## Arrays em linguagens compiladas e interpretadas
 
-Quando você declara uma variável com uma sequência de números ou qualquer outra coisa separada por vírgula em uma linguagem interpretada, você não está criando um array estático. Por debaixo dos panos, essas linguagens não usam array como nas linguagens compiladas. 
+Quando você faz isso em python por exemplo:
+
+```Python
+# Python
+a = [8, 5, 2, 9, 3]
+```
+ou em JavaScript:
+
+```javascript
+// JavaScript
+let a = [8, 5, 2, 9, 3]
+```
+Você não está criando um array estático. Por debaixo dos panos, essas linguagens não usam array como nas linguagens compiladas. 
 
 Por serem linguagens interpretadas e permitirem a inserção de novos elementos de forma dinâmica, elas usam [listas encadeadas](https://pt.wikipedia.org/wiki/Lista_ligada) para poder representar vetores. Em Python, por exemplo, os vetores são chamados de [lista (list)](https://docs.python.org/3/library/stdtypes.html#typesseq-list) e não array. Python não suporta a criação de vetores estáticos como no C/C++ ou Java. 
 

@@ -7,6 +7,19 @@ tags: ["estrutura de dados"]
 mastodonpost: "https://bolha.us/@cleverson/115861432730503283"
 ---
 
+<details close style="margin-bottom: 2em;">
+<summary><strong>Índices</strong></summary>
+<ul>
+  <li><a href="#como-funciona-a-memoria-do-computador">Como funciona a memória do computador?</a></li>
+  <li><a href="#o-que-e-um-array">O que é um array?</a></li>
+  <li><a href="#complexidade">Complecidade</a></li>
+  <li><a href="#tipos-unidimensional-e-multidimensionais">Tipos unidimensional e multidimensionais</a></li>
+  <li><a href="#vantagens-e-desvantagens">Vantagens e Desvantagens</a></li>
+  <li><a href="#arrays-em-linguagens-compiladas-e-interpretadas">Arrays em linguagens compiladas e interpretadas</a></li>
+  <li><a href="#referencias">Referências</a></li>
+</ul> 
+</details>
+
 
 Array, em linguagens de programação compiladas, é uma estrutura de dados que permite armazenar uma **coleção** de dados do mesmo tipo em uma única variável. Essa definição é importante, pois existe uma diferença entre arrays em linguagens compiladas e interpretadas. 
 
@@ -25,11 +38,11 @@ Imagine a memória do computador como se fosse um armário com várias gavetas v
 
 ![](/media/array-a-estrutura-de-dados-mais-fundamental-da-computacao/armario-ilustracao-memoria.jpg)
 
-A memória de seu computador funcionar mais ou menos como o exemplo sitado. Quando você precisa salvar algum dado na memória, seu computador libera um slot (espaço na memória) para poder armazenar o dado. É como se fosse um conjunto de várias gavetas, e cada gaveta tem um endereço que você pode acessar e recuperar aquele dado que foi guardado.
+A memória de seu computador funciona mais ou menos como o exemplo citado. Quando você precisa salvar algum dado na memória, seu computador libera um slot (espaço na memória) para poder armazenar o dado. É como se fosse um conjunto de várias gavetas, e cada gaveta tem um endereço que você pode acessar e recuperar aquele dado que foi guardado.
 
 Então quando você armazena um item na memória, você esta pedindo ao seu computador um slot na memória para guardar aquele item.
 
-## Entendo o que é um array
+## O que é um array?
 
 Um array, resumidamente, significa que os dados serão organizados continuamente (um ao lado do outro) na memória. Isso é, quando declaramos um array, e definimos um tamanho fixo, a linguagem vai pedir ao computador, *slots* que estejam livres um a lado do outro.
 

@@ -4,7 +4,7 @@ date: 2025-09-03 21:57:23 -0300
 summary: "Na maioria das vezes, quando estamos desenvolvendo um sistema, precisamos criar maneiras de restringir o acesso a determinados recursos ou funcionalidades. Nesse post, vamos discutir um pouco sobre o Role Based Access Control (RBAC)."
 comments: true
 tags: ['fastapi', 'RBAC']
-mastodonpost: ""
+mastodonpost: "https://bolha.us/@cleverson/115924918477557912"
 ---
 
 <br>

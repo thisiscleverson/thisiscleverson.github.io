@@ -12,7 +12,7 @@ mastodonpost: "https://bolha.us/@cleverson/115861432730503283"
 <ul>
   <li><a href="#como-funciona-a-memoria-do-computador">Como funciona a memória do computador?</a></li>
   <li><a href="#o-que-e-um-array">O que é um array?</a></li>
-  <li><a href="#complexidade">Complecidade</a></li>
+  <li><a href="#complexidade">Complexidade</a></li>
   <li><a href="#tipos-unidimensional-e-multidimensionais">Tipos unidimensional e multidimensionais</a></li>
   <li><a href="#vantagens-e-desvantagens">Vantagens e Desvantagens</a></li>
   <li><a href="#arrays-em-linguagens-compiladas-e-interpretadas">Arrays em linguagens compiladas e interpretadas</a></li>

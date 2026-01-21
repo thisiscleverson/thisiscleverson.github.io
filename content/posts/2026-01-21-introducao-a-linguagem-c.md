@@ -1,7 +1,7 @@
 ---
 title: "Introdução à Linguagem C"
 date: 2026-01-21 12:04:41 -0300
-summary: "A linguagem C é uma das linguagens mais importantes da computação. Nesse post, falo um pouco sobre essa linguagem que é amplamento usada em sistemas operacionais e em sistemas embarcados."
+summary: "A linguagem C é uma das linguagens mais importantes da computação. Nesse post, falo um pouco sobre essa linguagem amplamente usada em sistemas operacionais e em sistemas embarcados."
 comments: true
 tags: ['C', 'curso', 'linguagem de programação']
 mastodonpost: ""

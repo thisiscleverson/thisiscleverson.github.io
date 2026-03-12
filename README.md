@@ -2,12 +2,4 @@
 
 --- 
 
-create new post:
-```shell
-python new-post.py
-```
-
-run:
-```shell
-pelican content -r -l
-```
+## Este repositório foi migrado para o Codeberg: https://codeberg.org/thisiscleverson/blog
